@@ -1,0 +1,214 @@
+install.âckages("RBeast")
+install.packages("devtools")
+devtools::install_github("beast-dev/RBeast")
+library(devtools)
+install.packages("raster")
+install.packages("doMC")
+install.packages("fields")
+install.packages("gdistance")
+install.packages("fields")
+library(fields)
+install.packages("dotCall64")
+library(fields)
+install.packages("gdistance")
+library(gdistance)
+library(gdstat)
+library(gstat)
+install.packages("gstat")
+install.packages("ks")
+install.packages("MASS`")
+install.packages("MASS")
+install.packages("phytools")
+install.packages("lubridate")
+install.packages("RColorBrewer")
+install.packages("OutbreakTools")
+install.packages("rgdal")
+install.packages("yhat")
+install.packages("vegan")
+install.packages("scico")
+library(scico)
+scico(15, palette = 'vik')
+scico(100, palette = 'vik')
+citation("vegan")
+library(ncdf4)#
+library(rgdal)
+nc = nc_open("cru_ts4.02.1901.2017.tmp.dat.nc")
+library(ncdf4)#
+library(rgdal)#
+#
+nc = nc_open("cru_ts4.02.1901.2017.tmp.dat.nc")
+nc = nc_open("TMP.nc")
+nc = nc_open("ECMWF_extraction.nc")
+files = list.files()
+files
+files1 = list.files()#
+#
+for (i in 1:length(files))#
+	{#
+		file1 = files1[i]#
+		file2 = gsub("\\.csv","\\_3.csv",file1)#
+		file2 = gsub("\\.pdf","\\_3.pdf",file1)#
+		file2 = gsub("\\.asc","\\_3.asc",file1)#
+		files2[i] = file2#
+	}
+files1 = list.files()#
+files2 = list.files()#
+for (i in 1:length(files))#
+	{#
+		file1 = files1[i]#
+		file2 = gsub("\\.csv","\\_3.csv",file1)#
+		file2 = gsub("\\.pdf","\\_3.pdf",file1)#
+		file2 = gsub("\\.asc","\\_3.asc",file1)#
+		files2[i] = file2#
+	}
+files2
+files1 = list.files()#
+files2 = list.files()#
+for (i in 1:length(files))#
+	{#
+		file1 = files1[i]#
+		file2 = gsub("\\.csv","\\_3.csv",file1)#
+		file2 = gsub("\\.pdf","\\_3.pdf",file2)#
+		file2 = gsub("\\.asc","\\_3.asc",file2)#
+		files2[i] = file2#
+	}
+files2
+files1 = list.files()#
+files2 = list.files()#
+for (i in 1:length(files))#
+	{#
+		file1 = files1[i]#
+		file2 = gsub("\\.csv","\\_3.csv",file1)#
+		file2 = gsub("\\.pdf","\\_3.pdf",file2)#
+		file2 = gsub("\\.asc","\\_3.asc",file2)#
+		files2[i] = file2#
+		file.rename(file1,file2)#
+	}
+files1 = list.files()#
+files2 = list.files()
+files1
+files1 = list.files()#
+files2 = list.files()#
+#
+files1 = files1[which(!grepl("_3.",files1))]#
+files2 = files2[which(!grepl("_3.",files2))]
+files1
+files2
+files1 = list.files()#
+files2 = list.files()#
+#
+files1 = files1[which(!grepl("_3.",files1))]
+files1
+files1 = list.files()#
+files2 = list.files()#
+#
+files1 = files1[which(!grepl("_3.",files1))]#
+files2 = files2[which(!grepl("_3.",files2))]#
+#
+for (i in 1:length(files))#
+	{#
+		file1 = files1[i]#
+		file2 = gsub("\\.csv","\\_2.csv",file1)#
+		file2 = gsub("\\.pdf","\\_2.pdf",file2)#
+		file2 = gsub("\\.asc","\\_2.asc",file2)#
+		files2[i] = file2#
+		file.rename(file1,file2)#
+	}
+files1 = list.files()#
+files2 = list.files()#
+#
+files1 = files1[which(!grepl("_3.",files1))]#
+files2 = files2[which(!grepl("_3.",files2))]#
+#
+for (i in 1:length(files1))#
+	{#
+		file1 = files1[i]#
+		file2 = gsub("\\.csv","\\_2.csv",file1)#
+		file2 = gsub("\\.pdf","\\_2.pdf",file2)#
+		file2 = gsub("\\.asc","\\_2.asc",file2)#
+		files2[i] = file2#
+		file.rename(file1,file2)#
+	}
+files1 = list.files()#
+files2 = list.files()#
+#
+files1 = files1[which(!grepl("_3.",files1))]#
+files2 = files2[which(!grepl("_3.",files2))]#
+#
+for (i in 1:length(files1))#
+	{#
+		file1 = files1[i]#
+		file2 = gsub("\\.csv","\\_2.csv",file1)#
+		file2 = gsub("\\.pdf","\\_2.pdf",file2)#
+		file2 = gsub("\\.asc","\\_2.asc",file2)#
+		files2[i] = file2#
+		file.rename(file1,file2)#
+	}
+files1 = list.files()#
+files2 = list.files()#
+#
+files1 = files1[which(!grepl("_2.",files1))]#
+files2 = files2[which(!grepl("_2.",files2))]#
+#
+for (i in 1:length(files1))#
+	{#
+		file1 = files1[i]#
+		file2 = gsub("\\.RData","\\_2.RData",file1)#
+		file2 = gsub("\\.csv","\\_2.csv",file1)#
+		file2 = gsub("\\.pdf","\\_2.pdf",file2)#
+		file2 = gsub("\\.asc","\\_2.asc",file2)#
+		files2[i] = file2#
+		file.rename(file1,file2)#
+	}
+files1 = list.files()#
+files2 = list.files()#
+#
+files1 = files1[which(!grepl("_2.",files1))]#
+files2 = files2[which(!grepl("_2.",files2))]
+files1
+i=1
+file1 = files1[i]#
+		file2 = gsub("\\.RData","\\_2.RData",file1)
+file2
+file.rename(file1,file2)
+for (i in 1:length(files1))#
+	{#
+		file1 = files1[i]#
+		file2 = gsub("\\.RData","\\_2.RData",file1)#
+		file2 = gsub("\\.csv","\\_2.csv",file1)#
+		file2 = gsub("\\.pdf","\\_2.pdf",file2)#
+		file2 = gsub("\\.asc","\\_2.asc",file2)#
+		files2[i] = file2#
+		file.rename(file1,file2)#
+	}
+i
+files1 = list.files()#
+files2 = list.files()#
+#
+files1 = files1[which(!grepl("_2.",files1))]#
+files2 = files2[which(!grepl("_2.",files2))]
+files1
+i=1
+file1 = files1[i]#
+		file2 = gsub("\\.RData","\\_2.RData",file1)#
+		file2 = gsub("\\.csv","\\_2.csv",file1)#
+		file2 = gsub("\\.pdf","\\_2.pdf",file2)#
+		file2 = gsub("\\.asc","\\_2.asc",file2)#
+		files2[i] = file2#
+		file.rename(file1,file2)
+files1 = list.files()#
+files2 = list.files()#
+#
+files1 = files1[which(!grepl("_2.",files1))]#
+files2 = files2[which(!grepl("_2.",files2))]#
+#
+for (i in 1:length(files1))#
+	{#
+		file1 = files1[i]#
+		file2 = gsub("\\.RData","\\_2.RData",file1)#
+		file2 = gsub("\\.csv","\\_2.csv",file1)#
+		file2 = gsub("\\.pdf","\\_2.pdf",file2)#
+		file2 = gsub("\\.asc","\\_2.asc",file2)#
+		files2[i] = file2#
+		file.rename(file1,file2)#
+	}
