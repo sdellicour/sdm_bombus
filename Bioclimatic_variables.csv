@@ -1,0 +1,20 @@
+ID,short_name,full_name
+BIO1,annual_mean_temperature,annual mean temperature
+BIO2,mean_diurnal_range,mean diurnal range (mean of monthly (max temp - min temp))
+BIO3,isothermality,isothermality (BIO2/BIO7) (* 100)
+BIO4,temperature_seasonality,temperature seasonality (standard deviation *100)
+BIO5,max_temperature_of_warmest_month,max temperature of warmest month
+BIO6,min_temperature_of_coldest_month,min temperature of coldest month
+BIO7,temperature_annual_range,temperature annual range (BIO5-BIO6)
+BIO8,mean_temperature_of_wettest_quarter,mean temperature of wettest quarter
+BIO9,mean_temperature_of_driest_quarter,mean temperature of driest quarter
+BIO10,mean_temperature_of_warmest_quarter,mean temperature of warmest quarter
+BIO11,mean_temperature_of_coldest_quarter,mean temperature of coldest quarter
+BIO12,annual_precipitation,annual precipitation
+BIO13,precipitation_of_wettest_month,precipitation of wettest month
+BIO14,precipitation_of_driest_month,precipitation of driest month
+BIO15,precipitation_seasonality,precipitation seasonality (coefficient of variation)
+BIO16,precipitation_of_wettest_quarter,precipitation of wettest quarter
+BIO17,precipitation_of_driest_quarter,precipitation of driest quarter
+BIO18,precipitation_of_warmest_quarter,precipitation of warmest quarter
+BIO19,precipitation_of_coldest_quarter,precipitation of coldest quarter
